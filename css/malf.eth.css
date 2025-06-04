@@ -1,0 +1,553 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+.body {
+  background-color: #a1efff;
+}
+
+.section_hero {
+  background-image: url("../images/bg_book.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.hero_ground {
+  background-image: url("../images/hero_ground.svg");
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 25%;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.hero_trees {
+  background-image: url("../images/hero_trees.png");
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 55%;
+  position: absolute;
+  top: auto;
+  bottom: 23%;
+  left: 0%;
+  right: 0%;
+}
+
+.hero_logo {
+  height: 25%;
+  margin-top: 50px;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+
+.hero_malf {
+  height: 70%;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: auto;
+}
+
+.bushes {
+  /* background-image: url("../images/hero_bushes.svg"); */
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 15%;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.section_about {
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(#04c9d0, #a2eceb 50%);
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 0;
+  display: flex;
+  position: relative;
+}
+
+.bushes_hider {
+  background-color: #00805c;
+  height: 7.5%;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.transition {
+  z-index: 20;
+  background-color: #3ca566;
+  border-top: 3.5px solid #000;
+  border-bottom: 3.5px solid #000;
+  width: 100%;
+  height: 100px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.transition_1_in {
+  background-color: #0c683e;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.about_clouds {
+  justify-content: flex-start;
+  align-items: center;
+  width: 200vw;
+  height: 400px;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.clouds_in {
+  background-image: url("../images/about_clouds.png");
+  background-position: 50%;
+  background-repeat: repeat-x;
+  background-size: 100%;
+  width: 100vw;
+  height: 100%;
+}
+
+.malf_about {
+  width: 450px;
+  position: relative;
+}
+
+.block_about {
+  background-color: #3cd593;
+  border: 3px solid #000;
+  border-bottom-width: 8px;
+  border-radius: 20px;
+  width: 650px;
+  height: auto;
+  padding: 15px;
+  position: relative;
+}
+
+.block_about_in {
+  background-color: #1d9964;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 80px 25px;
+  display: flex;
+}
+
+.about_bush_left {
+  height: 250px;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.bush_left {
+  height: 100%;
+}
+
+.about_bush_right {
+  height: 250px;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+}
+
+.bush_right {
+  height: 100%;
+}
+
+.para {
+  color: #86ffcb;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Maladroit, sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.about_bushes {
+  background-image: url("../images/hero_bushes.svg");
+  background-position: 100% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  width: 100%;
+  height: 150px;
+  margin-top: 25px;
+  position: relative;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.bushes_hider_about {
+  background-color: #00805c;
+  height: 65px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.section_tokenomics {
+  background-image: url("../images/bg_house.jpg");
+  background-size: cover;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  position: relative;
+}
+
+.h1 {
+  color: #fb547c;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #000;
+  font-family: Nowcloud, sans-serif;
+  font-size: 110px;
+  line-height: 110px;
+  position: relative;
+}
+
+.image {
+  width: 400px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.block_tokenomics {
+  background-color: #1d9964;
+  border-radius: 20px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 25px 25px 15px;
+  display: flex;
+}
+
+.tokenomics_details {
+  background-color: #23dc8d;
+  border: 2px solid #000;
+  border-bottom-width: 6px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+.h3 {
+  color: #fff;
+  font-family: Maladroit, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.tokenomics_trees {
+  background-image: url("../images/hero_trees.png");
+  background-position: 50% 100%;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 55%;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.footer {
+  z-index: 20;
+  background-color: #3ca566;
+  border-top: 3.5px solid #000;
+  border-bottom: 3.5px solid #000;
+  width: 100%;
+  height: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.socials {
+  color: #000;
+  background-color: #23dc8d;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  font-family: Maladroit, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+
+.socials:hover {
+  border-top-width: 5px;
+  border-bottom-width: 2px;
+}
+
+.block_socials {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.email {
+  color: #3dd891;
+  margin-top: 25px;
+  font-family: Maladroit, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.footer_in {
+  background-color: #0c683e;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.button_buy {
+  color: #000;
+  background-color: #23dc8d;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  font-family: Maladroit, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+
+.button_buy:hover {
+  border-top-width: 5px;
+  border-bottom-width: 2px;
+}
+
+.ca {
+  color: #3dd891;
+  margin-top: 0;
+  font-family: Maladroit, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.header {
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.socials_header {
+  color: #000;
+  background-color: #23dc8d;
+  border: 2px solid #000;
+  border-bottom-width: 5px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  font-family: Maladroit, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+}
+
+.socials_header:hover {
+  border-top-width: 5px;
+  border-bottom-width: 2px;
+}
+
+@media screen and (max-width: 991px) {
+  .h1 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero_logo {
+    height: 20%;
+    margin-top: 70px;
+  }
+
+  .hero_malf {
+    height: 60%;
+  }
+
+  .malf_about {
+    width: 400px;
+  }
+
+  .block_about {
+    width: 90%;
+  }
+
+  .about_bush_left,
+  .about_bush_right {
+    height: 150px;
+  }
+
+  .h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .socials {
+    margin: 10px 0;
+  }
+
+  .block_socials {
+    flex-flow: column;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero_logo,
+  .hero_malf {
+    width: 90%;
+    height: auto;
+  }
+
+  .malf_about {
+    width: 90%;
+  }
+
+  .block_about_in {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .para {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .h1 {
+    -webkit-text-stroke-width: 2px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .image {
+    width: 90%;
+  }
+
+  .h3 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .ca {
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  .socials_header {
+    width: 120px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+@font-face {
+  font-family: "Maladroit";
+  src: url("../fonts/maladroit.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nowcloud";
+  src: url("../fonts/Nowcloud.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
